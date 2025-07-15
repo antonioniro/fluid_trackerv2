@@ -157,8 +157,6 @@ Shows:
 ### Performance Tips:
 - Use smaller ROI for faster processing
 - Enable debug mode only when needed
-- Save color profiles for repeated use
-- Close other applications for better performance
 
 ## 📁 File Structure
 ```
@@ -171,13 +169,6 @@ fluid_tracker_v2/
 ```
 
 ## 🛠️ Technical Details
-
-### Color Detection Algorithm:
-1. Convert to HSV color space
-2. Create adaptive color ranges based on samples
-3. Handle hue wrap-around for edge colors
-4. Apply morphological operations for cleanup
-5. Filter out container edges and noise
 
 ### Surface Tracking:
 1. Find fluid contours in color mask
@@ -200,4 +191,4 @@ Feel free to improve the system by:
 - Adding new analysis metrics
 
 ## 📝 License
-This project is for educational and research purposes. 
+This project is for educational and research purposes of Antonio Niro (https://github.com/antonioniro) for Unina
